@@ -1,4 +1,4 @@
-This project is , using Python for automation and R to process data.
+This project process NDVI from Sentinel 2 bands (raster), using Python for automation and R to process data.
 It still requires to be developed in order to be used as a fully functionnal application.
 It's purpose is to be used as a model for other projects.
 
