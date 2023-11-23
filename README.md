@@ -5,6 +5,7 @@ It's purpose is to be used as a model for other projects.
 Automation's steps:
 
   1- Fetch satellite raster data (Sentinel 2: [click here](https://scihub.copernicus.eu/dhus)) covering a specified mask. The query is looking for the least cloud coverage.
+  
   ![Mask](./illustrations/area_mask.jpg)
   ![Sentinel2](./illustrations/sentinel2_bands.jpg)
   
@@ -24,7 +25,7 @@ Automation's steps:
   
   6- Display filtered NDVI raster on a Leaflet map, usin Folium plugin
   
-  ![Leaflet](./illustrations/NDVI_leaflet.jpg)
+  ![Leaflet](./illustrations/ndvi_leaflet.jpg)
   
 Requirements:
 
