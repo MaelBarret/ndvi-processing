@@ -4,7 +4,7 @@ It's purpose is to be used as a model for other projects.
 
 Automation's steps:
 
-  1- Fetch satellite raster data (Sentinel 2: [click here](https://scihub.copernicus.eu/dhus)) of a specified mask. The query is looking for the lower cloud coverage.
+  1- Fetch satellite raster data (Sentinel 2: [https://scihub.copernicus.eu/dhus]) of a specified mask. The query is looking for the lower cloud coverage.
   
   2- Clip satellite data with the mask
   
