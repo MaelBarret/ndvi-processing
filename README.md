@@ -17,5 +17,7 @@ Automation's steps:
   6- Display filtered NDVI raster on a Leaflet map, usin Folium plugin
   
 Requirements:
+
+  - Change paths according to your local environment
   - Python
   - R
