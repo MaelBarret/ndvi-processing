@@ -4,17 +4,31 @@ It's purpose is to be used as a model for other projects.
 
 Automation's steps:
 
+<<<<<<< HEAD
   1- Fetch satellite raster data (Sentinel 2: [https://scihub.copernicus.eu/dhus]) of a specified mask. The query is looking for the lower cloud coverage.
+=======
+  1- Fetch satellite raster data (Sentinel 2: [click here](https://scihub.copernicus.eu/dhus)) covering a specified mask. The query is looking for the least cloud coverage.
+  ![Mask](./illustrations/area_mask.jpg)
+  ![Sentinel2](./illustrations/sentinel2_bands.jpg)
+>>>>>>> c8e6de31be7f27e03d9884f1d4c551958e1dad54
   
   2- Clip satellite data with the mask
   
+  ![Clip mask](./illustrations/mask_clip.jpg)
+  
   3- Process NDVI
   
+  ![NDVI](./illustrations/NDVI.jpg)
+  
   4- Open NDVI raster with R and process data distribution
+  
+  ![NDVI distribution](./illustrations/NDVI_distribution.jpg)
   
   5- Write two rasters with NDVI value >25 and >50
   
   6- Display filtered NDVI raster on a Leaflet map, usin Folium plugin
+  
+  ![Leaflet](./illustrations/NDVI_leaflet.jpg)
   
 Requirements:
 
