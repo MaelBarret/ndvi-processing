@@ -1,4 +1,4 @@
-This project is , using Python for automation and R to process data.
+This project process NDVI from Sentinel 2 bands (raster), using Python for automation and R to process data.
 It still requires to be developed in order to be used as a fully functionnal application.
 It's purpose is to be used as a model for other projects.
 
@@ -8,6 +8,7 @@ Automation's steps:
   1- Fetch satellite raster data (Sentinel 2: [https://scihub.copernicus.eu/dhus]) of a specified mask. The query is looking for the lower cloud coverage.
 =======
   1- Fetch satellite raster data (Sentinel 2: [click here](https://scihub.copernicus.eu/dhus)) covering a specified mask. The query is looking for the least cloud coverage.
+  
   ![Mask](./illustrations/area_mask.jpg)
   ![Sentinel2](./illustrations/sentinel2_bands.jpg)
 >>>>>>> c8e6de31be7f27e03d9884f1d4c551958e1dad54
@@ -24,14 +25,14 @@ Automation's steps:
   
   ![NDVI distribution](./illustrations/NDVI_distribution.jpg)
   
-  5- Write two rasters with NDVI value >25 and >50
+  5- Write two rasters with NDVI value >0.25 and >0.5
   
   6- Display filtered NDVI raster on a Leaflet map, usin Folium plugin
   
-  ![Leaflet](./illustrations/NDVI_leaflet.jpg)
+  ![Leaflet](./illustrations/ndvi_leaflet.jpg)
   
 Requirements:
 
   - Change paths according to your local environment
-  - Python
-  - R
+  - Python installed
+  - R installed
