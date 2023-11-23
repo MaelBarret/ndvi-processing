@@ -21,7 +21,7 @@ Automation's steps:
   
   ![NDVI distribution](./illustrations/NDVI_distribution.jpg)
   
-  5- Write two rasters with NDVI value >25 and >50
+  5- Write two rasters with NDVI value >0.25 and >0.5
   
   6- Display filtered NDVI raster on a Leaflet map, usin Folium plugin
   
