@@ -9,17 +9,21 @@ Automation's steps:
   ![Sentinel2](./illustrations/sentinel2_bands.jpg)
   
   2- Clip satellite data with the mask
+  
   ![Clip mask](./illustrations/mask_clip.jpg)
   
   3- Process NDVI
+  
   ![NDVI](./illustrations/NDVI.jpg)
   
   4- Open NDVI raster with R and process data distribution
+  
   ![NDVI distribution](./illustrations/NDVI_distribution.jpg)
   
   5- Write two rasters with NDVI value >25 and >50
   
   6- Display filtered NDVI raster on a Leaflet map, usin Folium plugin
+  
   ![Leaflet](./illustrations/NDVI_leaflet.jpg)
   
 Requirements:
