@@ -30,5 +30,5 @@ Automation's steps:
 Requirements:
 
   - Change paths according to your local environment
-  - Python
-  - R
+  - Python installed
+  - R installed
